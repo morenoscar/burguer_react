@@ -13,6 +13,7 @@ const burger = (props) => {
         .reduce((arr,el) => {
             return arr.concat(el)
         },[]);
+
     return (
         <div className={classes.Burger}>
             <BurgerIngredient type="bread-top" />
